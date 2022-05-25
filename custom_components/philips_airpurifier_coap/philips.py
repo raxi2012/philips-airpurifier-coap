@@ -514,6 +514,10 @@ class PhilipsAC2958(PhilipsAC29xx):
     pass
 
 
+class PhilipsAC2959(PhilipsAC29xx):
+    pass
+
+
 class PhilipsAC30xx(PhilipsGenericCoAPFan):
     AVAILABLE_PRESET_MODES = {
         PRESET_MODE_AUTO: {PHILIPS_POWER: "1", PHILIPS_MODE: "AG"},
@@ -652,6 +656,7 @@ model_to_class = {
     MODEL_AC2936: PhilipsAC2936,
     MODEL_AC2939: PhilipsAC2939,
     MODEL_AC2958: PhilipsAC2958,
+    MODEL_AC2959: PhilipsAC2959,
     MODEL_AC3033: PhilipsAC3033,
     MODEL_AC3036: PhilipsAC3036,
     MODEL_AC3039: PhilipsAC3039,
